@@ -64,9 +64,9 @@ Below is a curated comparison table of commercial SaaS marketing automation plat
 
 ## 🔓 Open-Source GitHub Projects
 
-Open-source tools offer complete data privacy, self-hosting flexibility, zero per-contact licensing fees, and deep customizability. Below is a curated list sorted by **GitHub Star Count** (descending).
+Open-source tools offer complete data privacy, self-hosting flexibility, zero per-contact licensing fees, and deep customizability. Below is a curated list sorted by **GitHub Stars_Count** (descending).
 
-| Project | Description & Core Stack | GitHub Stars |
+| Project | Description & Core Stack | GitHub_Stars |
 | :--- | :--- | :---: |
 | ⚡ **[n8n](https://github.com/n8n-io/n8n)** | Fair-code workflow automation platform with native AI capabilities. Combine visual workflow building with custom code to connect 400+ CRMs, ESPs, and marketing services. *(Node.js / TypeScript)* | [![n8n Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers) |
 | 📣 **[Novu](https://github.com/novuhq/novu)** | Open-source notification infrastructure for email, SMS, push, in-app, and webhooks—acts as a robust delivery and workflow layer for customer communications. *(TypeScript)* | [![Novu Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers) |
@@ -109,7 +109,7 @@ Contributions are warmly welcomed! To suggest a new marketing automation platfor
 1. **Fork** this repository.
 2. Create a new topic branch: `git checkout -b feature/add-new-tool`.
 3. Add or edit entries in `README.md` adhering to the table format.
-4. Ensure descriptions are objective, link directly to official project repositories/sites, and include accurate pricing/star badges.
+4. Ensure descriptions are objective, link directly to official project repositories/sites, and include accurate pricing/Stars_Badges.
 5. Submit a **Pull Request** with a clear explanation of your addition.
 
 ---
