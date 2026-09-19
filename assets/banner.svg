@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Animated Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19">
+        <animate attributeName="stop-color" values="#0b0f19;#111827;#0f172a;#0b0f19" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#1e1b4b">
+        <animate attributeName="stop-color" values="#1e1b4b;#311042;#1e1b4b;#311042" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0284c7">
+        <animate attributeName="stop-color" values="#0284c7;#4f46e5;#0284c7;#0284c7" dur="12s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="lightGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bgGrad)" rx="16" />
+  <rect width="1200" height="320" fill="url(#grid)" rx="16" />
+
+  <!-- Dynamic Background Workflow Lines & Nodes -->
+  <g opacity="0.35">
+    <!-- Workflow Connection Paths -->
+    <path d="M 100 80 Q 300 200 600 100 T 1100 220" fill="none" stroke="#6366f1" stroke-width="3" stroke-dasharray="8 8">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" dur="10s" repeatCount="indefinite" />
+    </path>
+    <path d="M 50 240 Q 400 100 750 250 T 1150 100" fill="none" stroke="#06b6d4" stroke-width="2" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" from="0" to="100" dur="8s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Animated Dynamic Flow Particles -->
+    <circle r="6" fill="#38bdf8" filter="url(#lightGlow)">
+      <animateMotion path="M 100 80 Q 300 200 600 100 T 1100 220" dur="6s" repeatCount="indefinite" />
+    </circle>
+    <circle r="5" fill="#ec4899" filter="url(#lightGlow)">
+      <animateMotion path="M 50 240 Q 400 100 750 250 T 1150 100" dur="8s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Background Node Rings -->
+    <circle cx="150" cy="120" r="18" fill="none" stroke="#818cf8" stroke-width="2">
+      <animate attributeName="r" values="14;22;14" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1050" cy="200" r="24" fill="none" stroke="#22d3ee" stroke-width="2">
+      <animate attributeName="r" values="20;28;20" dur="5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Title & Subtitle Card Overlay for High Contrast & Visibility -->
+  <rect x="150" y="45" width="900" height="230" fill="rgba(15, 23, 42, 0.65)" rx="20" stroke="rgba(255, 255, 255, 0.15)" stroke-width="1.5" style="backdrop-filter: blur(10px);" />
+
+  <!-- Main Headline Banner Text -->
+  <g text-anchor="middle">
+    <!-- Icon / Tagline Badge -->
+    <rect x="470" y="70" width="260" height="32" rx="16" fill="rgba(99, 102, 241, 0.25)" stroke="#818cf8" stroke-width="1.5" />
+    <text x="600" y="91" fill="#c7d2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">🚀 AWESOME ECOSYSTEM</text>
+
+    <!-- Title Text -->
+    <text x="600" y="150" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="900" letter-spacing="1" filter="url(#lightGlow)">
+      AWESOME MARKETING AUTOMATION
+    </text>
+
+    <!-- Subtitle Text -->
+    <text x="600" y="195" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="500">
+      Curated SaaS Platforms • Open-Source Solutions • Customer Journey Engines
+    </text>
+
+    <!-- Feature Pills -->
+    <g transform="translate(310, 220)">
+      <!-- Pill 1: Email Journeys -->
+      <rect x="0" y="0" width="160" height="28" rx="14" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" />
+      <text x="80" y="18" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">📧 Email Journeys</text>
+
+      <!-- Pill 2: Lead Nurturing -->
+      <rect x="180" y="0" width="160" height="28" rx="14" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" />
+      <text x="260" y="18" fill="#a7f3d0" font-family="system-ui, sans-serif" font-size="12" font-weight="600">🎯 Lead Nurturing</text>
+
+      <!-- Pill 3: CRM Integration -->
+      <rect x="360" y="0" width="160" height="28" rx="14" fill="rgba(255, 255, 255, 0.08)" stroke="rgba(255, 255, 255, 0.2)" />
+      <text x="440" y="18" fill="#fef08a" font-family="system-ui, sans-serif" font-size="12" font-weight="600">🔄 CRM Integration</text>
+    </g>
+  </g>
+</svg>
