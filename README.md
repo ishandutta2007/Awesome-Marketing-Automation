@@ -59,6 +59,7 @@ Below is a curated comparison table of commercial SaaS marketing automation plat
 | ✉️ **[Brevo (Sendinblue)](https://www.brevo.com/)** | Multichannel engagement (email, SMS, chat, WhatsApp) & affordable transactional automation for growing teams. | **~$500M Valuation** / $110M+ ARR | $9/mo (Starter plan for 5,000 email sends/mo) | Free forever plan (300 emails/day, unlimited contacts) |
 | 🎯 **[Customer.io](https://customer.io/)** | Developer-friendly behavioral messaging engine for in-app events, transactional email, push, & custom workflows. | **~$350M Valuation** / $60M+ ARR | $100/mo (Essentials plan for 5,000 profiles & 1M emails/mo) | 14-day free trial (full features, up to 1,000 test profiles) |
 | 🗺️ **[Ortto (Autopilot)](https://ortto.com/)** | Visual customer journey builder combining CDP data, campaign execution, and multi-channel marketing analytics. | **~$150M Valuation** / $25M+ ARR | $99/mo (Professional plan for 2,000 contacts) | 14-day full feature free trial (2,000 contact limit) |
+| 📅 **[Social Roster](https://socialroster.dev/)** | Cross-platform short-form video scheduling and bulk upload from one calendar. | See site | See site | Creator-focused SaaS |
 
 ---
 
